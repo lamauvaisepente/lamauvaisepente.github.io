@@ -1,0 +1,193 @@
+body {
+    text-align: center;
+    background-color: black;
+    font-family: "font-2"
+}
+
+@font-face {
+    font-family: font-1;
+    src: url(./assets/PermanentMarker-Regular.ttf);
+}
+@font-face {
+    font-family: font-2;
+    src: url(./assets/RocknRollOne-Regular.ttf);
+}
+@font-face {
+    font-family: font-3;
+    src: url(./assets/RockSalt-Regular.ttf);
+}
+
+.head img {
+    height: 150px;
+    margin: 25px auto;
+    transition: transform 0.5s;
+}
+
+.head img:hover{
+    transform: scale(1.05);
+    }
+
+h1 {
+    font-size: 2,5rem;
+    letter-spacing: 1ch;
+    color: firebrick;
+    text-shadow: 5px -3px 5px rgb(61, 0, 0);
+    margin: 3% 0;
+}
+
+#biographie{
+    color: firebrick;
+}
+
+#biographie p{
+    margin: 20px 50px 20px;
+    padding: 20px 20px;
+}
+
+/* section video */
+.vidéo{
+    margin: 3% 0;
+}
+
+.vidéo p{
+    color: firebrick;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+/* section concert */
+h2{
+    color: firebrick;
+    letter-spacing: 1ch;
+    text-align: center;
+    margin: 3% 0;
+}
+
+.tableau-style{
+    color: firebrick;
+    background-color: #24010138;
+    border-collapse: collapse;
+    min-width: 400px;
+    width: 800px;
+    box-shadow: 0 5px 50px rgba(139, 0, 0, 0.082);
+    margin: 20px auto 80px;
+}
+
+th, td{
+    padding: 15px 25px;
+}
+
+th{
+    letter-spacing: 0.4ch;
+}
+
+/* section maquette */
+.maquette{
+    color: firebrick;
+}
+
+.flex-container{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    color: firebrick;
+}
+
+.flex-container p{
+    margin-top: 3%;
+}
+
+/* section contact */
+#contact{
+    color: firebrick;
+    font-family: "font-2"
+}
+
+form{
+    background-color: rgba(59, 0, 0, 0.404);
+    margin: 25px auto;
+    width: 300px;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.séparation{
+    width: 35%;
+    height: 1px;
+    background-color: rgba(178, 34, 34, 0.486);
+    margin: 0 auto;
+}
+
+label{
+    line-height: 2;
+}
+    
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 5px;
+    margin: 5px auto 10px;
+    resize: none;
+    outline-color: rgb(99, 99, 99);
+    border-radius: 5px;
+}
+
+form i{
+    padding-right: 8px;
+}
+    
+button {
+    background: #240101;
+    color: rgb(216, 14, 14);
+    border: none;
+    padding: 10px 40px;
+    margin: 10px auto;
+    font-family: "font-2";
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+button:hover{
+transform: scale(1.05);
+}
+
+  /* section footer */
+
+footer {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 80px auto 30px;
+
+}
+
+ul li{
+    list-style: none;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+
+ul li a {
+    color: firebrick;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+
+ul li a:hover{
+    transform: scale(1.05);
+    }
+  
