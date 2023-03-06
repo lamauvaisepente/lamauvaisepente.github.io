@@ -17,9 +17,13 @@ body {
     src: url(./assets/RockSalt-Regular.ttf);
 }
 
+.head{
+    width: 100%;
+}
+
 .head img {
     height: 150px;
-    margin: 25px auto;
+    margin: 20px;
     transition: transform 0.5s;
 }
 
@@ -32,7 +36,7 @@ h1 {
     letter-spacing: 1ch;
     color: firebrick;
     text-shadow: 5px -3px 5px rgb(61, 0, 0);
-    margin: 3% 0;
+    margin: 20px 40px 30px;
 }
 
 #biographie{
@@ -59,14 +63,12 @@ h1 {
 h2{
     color: firebrick;
     letter-spacing: 1ch;
-    text-align: center;
     margin: 3% 0;
 }
 
 h3{
     color: firebrick;
     letter-spacing: 1ch;
-    text-align: center;
     margin: 3% 0;
 }
 
@@ -75,12 +77,18 @@ margin-top: 100px;
 margin-bottom: 70px;
 }
 
+#concerts img{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 90%;
+    }
+
 .tableau-style{
     color: firebrick;
     background-color: #24010138;
     border-collapse: collapse;
     min-width: 400px;
-    width: 890px;
+    width: 80%;
     box-shadow: 0 5px 50px rgba(139, 0, 0, 0.082);
     margin: 50px auto 80px;
 }
@@ -93,9 +101,15 @@ th{
     letter-spacing: 0.4ch;
 }
 
+.oldshows{
+    text-align: center;
+
+}
+
 /* section maquette */
 .maquette{
     color: firebrick;
+    margin: 40px 50px 20px;
 }
 
 .flex-container{
@@ -202,4 +216,3 @@ ul li a {
 ul li a:hover{
     transform: scale(1.05);
     }
-  
