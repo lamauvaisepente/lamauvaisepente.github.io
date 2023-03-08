@@ -109,8 +109,15 @@ th{
 
 /* section anciens concerts */
 
-.oldshows{
-    text-align: center;
+#oldshows h2{
+letter-spacing: normal;
+font-size: large;
+}
+
+#anciensconcerts iframe{
+    margin: 20px 50px 20px;
+    width: 560px;
+    height: 315px;
 }
 
 /* .grille loupika{
@@ -243,4 +250,11 @@ ul li a:hover{
         padding: 0;
         margin: 0;
     }
+    #anciensconcerts iframe{
+        width: 100%;
+        height: 300px;
+        padding: 0;
+        margin: 0;  
+    }
+
 }
